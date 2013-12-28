@@ -11,9 +11,11 @@ public class Person {
 		this.firstName = firstName;
 		this.emailAddress = emailAddress;
 	}
+	
 	public String getEmailAddress() {
 		return emailAddress;
 	}
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -21,6 +23,4 @@ public class Person {
 	public String getLastName() {
 		return lastName;
 	}
-
-
 }
